@@ -1,0 +1,23 @@
+{
+  "id": "com.denon.heos",
+  "version": "1.0.0",
+  "compatibility": ">=2.1.1",
+  "sdk": 2,
+  "name": {
+    "en": "Denon Heos"
+  },
+  "description": {
+    "en": "Adds support for Denon Heos Wi-Fi speakers"
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  },
+  "author": {
+    "name": "Athom B.V."
+  }
+}

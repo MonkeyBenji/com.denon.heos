@@ -1,0 +1,62 @@
+{
+  "id": "com.denon.heos",
+  "version": "1.0.0",
+  "compatibility": ">=2.1.1",
+  "sdk": 2,
+  "name": {
+    "en": "Denon Heos"
+  },
+  "description": {
+    "en": "Adds support for Denon Heos Wi-Fi speakers"
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  },
+  "author": {
+    "name": "Athom B.V."
+  },
+  "drivers": [
+    {
+      "id": "heos",
+      "name": {
+        "en": "Denon Heos"
+      },
+      "class": "speaker",
+      "capabilities": [
+        "speaker_track",
+        "speaker_album",
+        "speaker_artist",
+        "speaker_prev",
+        "speaker_next",
+        "speaker_position",
+        "speaker_repeat",
+        "speaker_shuffle",
+        "speaker_playing",
+        "volume_set",
+        "volume_mute"
+      ],
+      "images": {
+        "large": "/drivers/heos/assets/images/large.jpg",
+        "small": "/drivers/heos/assets/images/small.jpg"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ]
+    }
+  ]
+}
