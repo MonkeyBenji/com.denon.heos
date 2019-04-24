@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "id": "play_aux_in",
+      "title": {
+        "en": "Play AUX In",
+        "nl": "Speel AUX In"
+      }
+    }
+  ]
+}

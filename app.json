@@ -1,6 +1,6 @@
 {
   "id": "com.denon.heos",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "compatibility": ">=2.1.1",
   "brandColor": "#EC2919",
   "sdk": 2,
@@ -20,6 +20,24 @@
   },
   "author": {
     "name": "Athom B.V."
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "play_aux_in",
+        "title": {
+          "en": "Play AUX In",
+          "nl": "Speel AUX In"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      }
+    ]
   },
   "drivers": [
     {
