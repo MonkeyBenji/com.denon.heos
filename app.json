@@ -21,6 +21,26 @@
   "author": {
     "name": "Athom B.V."
   },
+  "discovery": {
+    "heos": {
+      "type": "ssdp",
+      "id": "{{headers.usn}}",
+      "ssdp": {
+        "search": "urn:schemas-denon-com:device:ACT-Denon:1"
+      },
+      "conditions": [
+        [
+          {
+            "field": "headers.st",
+            "match": {
+              "type": "string",
+              "value": "urn:schemas-denon-com:device:ACT-Denon:1"
+            }
+          }
+        ]
+      ]
+    }
+  },
   "flow": {
     "actions": [
       {
@@ -63,6 +83,7 @@
         "large": "/drivers/heos/assets/images/large.jpg",
         "small": "/drivers/heos/assets/images/small.jpg"
       },
+      "discovery": "heos",
       "pair": [
         {
           "id": "list_devices",

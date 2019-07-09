@@ -20,5 +20,25 @@
   },
   "author": {
     "name": "Athom B.V."
+  },
+  "discovery": {
+    "heos": {
+      "type": "ssdp",
+      "id": "{{headers.usn}}",
+      "ssdp": {
+        "search": "urn:schemas-denon-com:device:ACT-Denon:1"
+      },
+      "conditions": [
+        [
+          {
+            "field": "headers.st",
+            "match": {
+              "type": "string",
+              "value": "urn:schemas-denon-com:device:ACT-Denon:1"
+            }
+          }
+        ]
+      ]
+    }
   }
 }
