@@ -1,6 +1,6 @@
 {
   "id": "com.denon.heos",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "compatibility": ">=2.1.1",
   "brandColor": "#EC2919",
   "sdk": 2,
@@ -20,25 +20,5 @@
   },
   "author": {
     "name": "Athom B.V."
-  },
-  "discovery": {
-    "heos": {
-      "type": "ssdp",
-      "id": "{{headers.usn}}",
-      "ssdp": {
-        "search": "urn:schemas-denon-com:device:ACT-Denon:1"
-      },
-      "conditions": [
-        [
-          {
-            "field": "headers.st",
-            "match": {
-              "type": "string",
-              "value": "urn:schemas-denon-com:device:ACT-Denon:1"
-            }
-          }
-        ]
-      ]
-    }
   }
 }

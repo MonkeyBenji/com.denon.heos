@@ -21,7 +21,6 @@
     "large": "{{driverAssetsPath}}/images/large.jpg",
     "small": "{{driverAssetsPath}}/images/small.jpg"
   },
-  "discovery": "heos",
   "pair": [
     {
       "id": "list_devices",
