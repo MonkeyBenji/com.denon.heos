@@ -1,7 +1,7 @@
 {
   "id": "com.denon.heos",
-  "version": "1.2.0",
-  "compatibility": ">=2.1.1",
+  "version": "1.2.1",
+  "compatibility": ">=2.5.0",
   "brandColor": "#EC2919",
   "sdk": 2,
   "name": {
