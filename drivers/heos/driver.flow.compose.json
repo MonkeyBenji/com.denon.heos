@@ -6,6 +6,55 @@
         "en": "Play AUX In",
         "nl": "Speel AUX In"
       }
+    },
+    {
+      "id": "play_hdmi_1",
+      "title": {
+        "en": "Play HDMI 1",
+        "nl": "Speel HDMI 1"
+      }
+    },
+    {
+      "id": "play_hdmi_2",
+      "title": {
+        "en": "Play HDMI 2",
+        "nl": "Speel HDMI 2"
+      }
+    },
+    {
+      "id": "play_hdmi_3",
+      "title": {
+        "en": "Play HDMI 3",
+        "nl": "Speel HDMI 3"
+      }
+    },
+    {
+      "id": "play_hdmi_4",
+      "title": {
+        "en": "Play HDMI 4",
+        "nl": "Speel HDMI 4"
+      }
+    },
+    {
+      "id": "play_hdmi_arc_1",
+      "title": {
+        "en": "Play HDMI ARC 1",
+        "nl": "Speel HDMI ARC 1"
+      }
+    },
+    {
+      "id": "volume_up",
+      "title": {
+        "en": "Volume Up",
+        "nl": "Volume Omhoog"
+      }
+    },
+    {
+      "id": "volume_down",
+      "title": {
+        "en": "Volume Down",
+        "nl": "Volume Omlaag"
+      }
     }
   ]
 }
