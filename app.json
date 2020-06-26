@@ -36,6 +36,104 @@
             "filter": "driver_id=heos"
           }
         ]
+      },
+      {
+        "id": "play_hdmi_1",
+        "title": {
+          "en": "Play HDMI 1",
+          "nl": "Speel HDMI 1"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "play_hdmi_2",
+        "title": {
+          "en": "Play HDMI 2",
+          "nl": "Speel HDMI 2"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "play_hdmi_3",
+        "title": {
+          "en": "Play HDMI 3",
+          "nl": "Speel HDMI 3"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "play_hdmi_4",
+        "title": {
+          "en": "Play HDMI 4",
+          "nl": "Speel HDMI 4"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "play_hdmi_arc_1",
+        "title": {
+          "en": "Play HDMI ARC 1",
+          "nl": "Speel HDMI ARC 1"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "volume_up",
+        "title": {
+          "en": "Volume Up",
+          "nl": "Volume Omhoog"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
+      },
+      {
+        "id": "volume_down",
+        "title": {
+          "en": "Volume Down",
+          "nl": "Volume Omlaag"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=heos"
+          }
+        ]
       }
     ]
   },
@@ -57,6 +155,8 @@
         "speaker_shuffle",
         "speaker_playing",
         "volume_set",
+        "volume_up",
+        "volume_down",
         "volume_mute"
       ],
       "images": {

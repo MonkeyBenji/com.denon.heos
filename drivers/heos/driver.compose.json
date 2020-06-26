@@ -15,6 +15,8 @@
     "speaker_shuffle",
     "speaker_playing",
     "volume_set",
+    "volume_up",
+    "volume_down",
     "volume_mute"
   ],
   "images": {
